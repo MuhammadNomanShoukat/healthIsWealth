@@ -1,0 +1,79 @@
+.banner-filter-form{
+    .search {
+        max-width: 77%;
+        margin-top: 85px;
+        .search-form {
+            background: #FFFFFF;
+            border-radius: 30px;
+            form {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                button[type='submit'] {
+                    background: #84C000;
+                    border-radius: 30px;
+                    padding: 25px 33px;
+                    border: unset;
+                    font-weight: 600;
+                    color: #fff;
+                    font-size: 22px;
+                    margin-left: 22px;
+                    &:hover{
+                        background-color: #a1d52f;
+                        transition: all 500ms;
+                    }
+                }
+                .category, .profession{
+                    border-right: 1px solid #ccc;
+                    margin-right: 15px;
+                }
+
+                .location {
+                    position: relative;
+                    svg{
+                        position: absolute;
+                        right: 0;
+                        top: 20px;
+                        font-size: 22px;
+                        color: #ccc;
+                        cursor: pointer;
+                        &:hover{
+                            color: #959595;
+                            transition: all 500ms;
+                        }
+                    }
+                }
+
+                select, input {
+                    width: 216px;
+                    border: unset;
+                    box-shadow: unset;
+                    font-weight: bold;
+                    padding-left: 0;
+                    padding-top: 0;
+                }
+
+                label {
+                    margin-bottom: 0px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #373C59;
+                }
+            }
+        }
+    }
+    .advance-search {
+        margin-top: 20px;
+        margin-left: 40px;
+        a{
+            text-decoration: none;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 21px;
+            color: #FFFFFF;
+        }
+    }
+}
