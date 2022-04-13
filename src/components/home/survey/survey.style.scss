@@ -1,0 +1,52 @@
+#survey{
+    background: #F5F5F5;
+    .survey-content{
+        .survey-wrapper{
+            padding: 40px 0px;
+            .survey{
+                .heading{
+                    .heading1{
+                        h3{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 28px;
+                            line-height: 180%;
+                            color: #A1A1A2;
+                        }
+                    }
+                    .heading2{
+                        h2{
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 32px;
+                            line-height: 130%;
+                            color: #2F327D;
+                        }
+                    }
+                }
+                .form{
+                    margin: 40px 0px;
+                    .form-check-input:checked {
+                        background-color: #84c000;
+                        border-color: #84c000;
+                    }
+                    form{
+                        .form-fields{
+                            margin: 40px 20px 50px;
+                            font-size: 18px;
+                            margin-left: 40px;
+                        }
+                        button{
+                            background: #84C000;
+                            border-radius: 6px;
+                            border-color: #84C000;
+                            padding: 6px 30px;
+                            font-weight: 400;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

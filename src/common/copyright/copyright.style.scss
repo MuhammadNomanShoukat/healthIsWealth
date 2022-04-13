@@ -1,0 +1,22 @@
+#copyright{
+    background-color: #000;
+    .copyright-wrapper{
+        .copyright{
+            text-align: center;
+            p{
+                margin: 0;
+                padding: 18px 0px;
+                color: #fff;
+                font-size: 12px;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all 500ms ease;
+                    &:hover{
+                        color: #cdcdcd;
+                    }
+                }
+            }
+        }
+    }
+}

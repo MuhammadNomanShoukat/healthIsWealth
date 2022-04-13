@@ -1,0 +1,88 @@
+#footer{
+    background-color: #1f1f1f;
+    .footer-content {
+        padding: 70px 0px;
+        .section1-wrapper{
+            .content{
+                .contact-details-info {
+                    margin: 0;
+                    color: rgb(224, 222, 222);
+                    padding-top: 50px;
+                    line-height: 28px;
+                    font-size: 15px;
+                    max-width: 90%;
+                }
+            }
+        }
+        .section2-wrapper{
+            .content{
+                h3{
+                    color: rgb(224, 222, 222);
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-style: normal;
+                }
+                .list1{
+                    ul{
+                        padding-left: 0;
+                        padding-top: 15px;
+                        li{
+                            list-style-type: none;
+                            line-height: 28px;
+                            a{
+                                color: rgb(194, 193, 193);
+                                text-decoration: none;
+                                font-size: 15px;
+                                transition: all 300ms ease;
+                                &:hover{
+                                    color: #cdcdcd;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section3-wrapper{
+            .content{
+                .list2{
+                    padding-top: 40px;
+                    ul{
+                        padding-left: 0;
+                        li{
+                            list-style-type: none;
+                            line-height: 28px;
+                            a{
+                                color: rgb(194, 193, 193);
+                                text-decoration: none;
+                                font-size: 15px;
+                                transition: all 300ms ease;
+                                &:hover{
+                                    color: #cdcdcd;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section4-wrapper{
+            padding-top: 30px;
+            .content{
+                .social-icon{
+                    display: flex;
+                    a{
+                        img{
+                            transform: scale(0.7);
+                        }
+                    }
+                    .social-icon1, .social-icon2, .social-icon2, .social-icon3{
+                        display: inline-block;
+                        border-radius: 50%;
+                        margin: 0px 5px;
+                    }
+                }
+            }
+        }
+    }
+}
