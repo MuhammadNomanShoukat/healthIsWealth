@@ -1,0 +1,160 @@
+#professionals_list{
+    .professionals-list-content{
+        .list-wrapper{
+            .card-wrapper{
+                .card-content{
+                        border: 1px solid #ccc;
+                        margin-bottom: 30px;
+                        position: relative;
+                        padding: 30px;
+                    }
+                    .other-info-wrapper{
+                        position: relative;
+                        .other-content{
+                            .img{
+                                margin-bottom: 15px;
+                                img{
+                                    width: 100%;
+                                    height: 100px;
+                                    object-fit: contain;
+                                }
+                            }
+                            .rating{
+                                margin-bottom: 15px;
+                                display: flex;
+                                .star-wrapper{
+                                    margin-right: 10px;
+                                    .fa-star{
+                                        &::before{
+                                            content: "\f005";
+                                        }
+                                    }
+                                    .checked {
+                                        color: orange;
+                                    }
+                                }
+                                .rating-count{
+                                    border: 1px solid #424242;
+                                    padding: 0px 8px;
+                                }
+                            }
+                            .reviews{
+                                margin-bottom: 15px;
+                            }
+                            .favorite{
+                                margin-top: 60px;
+                                a{
+                                    text-decoration: none;
+                                    svg{
+                                        color: red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .basic-info-wrapper{
+                        .info-content{
+                            .heading{
+                                a{
+                                    text-decoration: none;
+                                    h2{
+                                        text-transform: capitalize;
+                                        color: #285768;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                            .tags{
+                                margin: 25px 0px;
+                                .tag{
+                                    background: #e6f7c1;
+                                    padding: 10px 28px;
+                                    border-radius: 20px;
+                                    margin-right: 8px;
+                                }
+                            }
+                            .location{
+                                display: flex;
+                                margin-bottom: 30px;
+                                .location-icon{
+                                    padding-right: 15px;
+                                    svg{
+                                        color: #ccc;
+                                        font-size: 17px;
+                                    }
+                                }
+                                .address{
+                                    p{
+                                        margin-bottom: 0px;
+                                        &:last-child{
+                                            color: #a7a6a6;
+                                            font-style: italic;
+                                        }
+                                    }
+                                }
+                            }
+                            .contact-tags{
+                                display: flex;
+                                flex-wrap: wrap;
+                                .tag{
+                                    background: #f3f3f3;
+                                    align-items: center;
+                                    padding: 9px 15px;
+                                    margin-right: 5px;
+                                    margin-top: 5px;
+                                    text-align: center;
+                                    a{
+                                        text-decoration: none;
+                                        color: #4a4a4a;
+                                        display: flex;
+                                        flex-direction: column;
+                                        svg{
+                                            width: 60px;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            .view-profile{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                margin-top: 35px;
+                                .profile-link{
+                                    a{
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        color: #369cf3;
+                                    }
+                                }
+                                .chat-now{
+                                    position: relative;
+                                    a{
+                                        text-decoration: none;
+                                        p{
+                                            margin-bottom: 0px;
+                                            color: #369cf3;
+                                        }
+                                        svg{
+                                            position: absolute;
+                                            top: -23px;
+                                            font-size: 24px;
+                                            right: 10px;
+                                            color: #369cf3;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .ads-wrapper{
+            .ads-content{
+                img{
+
+                }
+            }
+        }
+    }

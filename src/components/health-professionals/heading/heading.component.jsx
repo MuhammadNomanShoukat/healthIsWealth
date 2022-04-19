@@ -16,6 +16,9 @@ const Heading = () => {
                                         <h2>Health Professionals</h2>
                                     </div>
                                 </div>
+                                <div class="filter-cat-title mt-3">
+                                    <p><strong>Category: </strong> Professionals</p>
+                                </div>
                             </Col>
                         </Row>
                     </div>
